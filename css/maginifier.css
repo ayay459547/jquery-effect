@@ -1,0 +1,48 @@
+body{
+  background-color: grey;
+  padding: 0;
+  margin: 0;
+}
+.small{
+  margin: 30px 30px;
+  width: 300px;
+  height: 200px;
+  background-color: green;
+  position:relative;
+  overflow: hidden;
+}
+.small img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.big{
+  margin: 30px 350px;
+  width: 400px;
+  height: calc(800px/3);
+  border-radius: 5px;
+  box-shadow: 0 0 30px black;
+  overflow: hidden;
+  position: relative;
+  top: -230px;
+  left: 50px;
+  background-color: rgba(255, 255, 255, 0.418);
+}
+
+.big img{
+  width: 1200px;
+  height: 800px;
+  object-fit: cover;
+  position: absolute;
+  transform: translate(200px, 160px);
+  /* opacity: 0.5; */
+}
+
+.mark{
+  width: 100px;
+  height: calc(200px/3);
+  background-color: rgba(194, 194, 194, 0.5);
+  position: absolute;
+  transform: translate(-50px, -40px);
+}
