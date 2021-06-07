@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  background-color: grey;
+}
+ul{
+  list-style: none;
+}
+.swiper{
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  box-shadow: 0 0 15px black;
+  overflow: hidden;
+}
+ul{
+  position: relative;
+}
+.swiper img{
+  display: block;
+  width: 500px;
+  height: 300px;
+  object-fit: cover
+}
+
+.swiper-btn{
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+.swiper-btn button{
+  margin: 0 3px;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+}
+.swiper-btn button.active{
+  background-color: rgba(236, 162, 0, 0.8);
+}

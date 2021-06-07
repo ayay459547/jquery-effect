@@ -6,7 +6,7 @@ $(function(){
   $.ajax({
     type:"GET",
     url:"https://pixabay.com/api/?key=21826520-96a49335d11f68a80b7f656e6",
-    data:{
+    data: {
       q:'girl,snow'
     },
     dataType:'json',
